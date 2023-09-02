@@ -1,0 +1,26 @@
+.card{
+    width: 400px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    flex-direction: column;
+    margin: 14px;
+    background-position: center;
+    backdrop-filter: blur(3px);
+    background-color: rgba(0, 0, 0, 0.23);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+.card h2{
+    margin-top: 10px;
+}
+
+.card:hover{
+    background-color: rgba(0, 0, 0, 0.3);
+}
